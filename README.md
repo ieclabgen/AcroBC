@@ -1,4 +1,4 @@
-# Predictor for ...
+# Predictor for Biochemical Control in Acromegallic patients.
 
 We present a Random forest model for prediction of biochemical control of 
 patients with acromegally that were submitted to surgery. This is a experimental model
@@ -22,6 +22,12 @@ that should not be used for treatment decision, more tests should be performed.
     * Windows: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/windows.html.
     
     * Linux: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/linux.html.
+    
+2. Enviroment creation:
+After installing miniconda, execute the anaconda prompt and use the command bellow to create an enviroment with required packages, you can substitute RFacro for any other name. 
+```sh
+conda create -n RFacro python=3.6 scikit-learn pandas numpy joblib 
+```
       
 ## Usage example
 
@@ -36,8 +42,7 @@ Describe how to install all development dependencies and how to run an automated
 ```sh
 make install
 npm test
-``
-
+```
 ## Meta
 
 [https://github.com/yourname/github-link](https://github.com/dbader/)
