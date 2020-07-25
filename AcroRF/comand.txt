@@ -1,0 +1,3 @@
+1- conda activate py36_knime
+
+2- python ./demo/rf_prediction.py
