@@ -23,29 +23,32 @@ that should not be used for treatment decision, more tests should be performed.
     
     * Linux: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/linux.html.
     
+    * macOS: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/macos.html.
+    
+    
 2. Enviroment creation:
 After installing miniconda, execute the anaconda prompt and use the command bellow to create an enviroment with required packages, you can substitute RFacro for any other name. 
 ```sh
 conda create -n RFacro python=3.6 scikit-learn pandas numpy joblib 
 ```
+
+3. Download the folder AcroRF from this repository and put it in your user folder then follow the commands on the intructions text file (that will be the same as the displayed in the next item). AcroRF folder contains: intructions.txt, rf_prediction.py and RFacro_model_final.sav (which is the trained model and could be used along with any other code.
+
+
       
-## Usage example
+## Usage 
+Running the commands bellow will allow the use for predictions on single samples.
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+1- conda activate RFacro
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+2- python ./AcroRF/rf_prediction.py
 
-## Development setup
+3- Fill the information as instructed
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
-```sh
-make install
-npm test
-```
-## Meta
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+
+
 
 
 
