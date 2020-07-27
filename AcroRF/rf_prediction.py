@@ -2,7 +2,7 @@ import os
 import numpy as np
 import joblib
 
-model = joblib.load(os.getcwd() + '\\demo\\RFacro_model_final.sav')
+model = joblib.load(os.getcwd() + '\\AcroRF\\RFacro_model_final.sav')
 
 #  Insert sst2 value(0 or 1): 0 = normal or low |  1 = high
 
