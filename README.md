@@ -1,4 +1,4 @@
-# Predictor for Biochemical Control in Acromegallic patients.
+# Predictor for Biochemical Control in patients with Acromegaly .
 
 We present a Random forest model for prediction of biochemical control of 
 patients with acromegally that were submitted to surgery. This is a experimental model
