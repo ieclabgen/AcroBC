@@ -6,7 +6,7 @@ model = joblib.load(os.getcwd() + '\\AcroRF\\RFacro_model_final.sav')
 
 #  Insert sst2 value(0 or 1): 0 = normal or low |  1 = high
 
-cam5 = input('Insert CAM5.2 value(0 = normal or low | 1 = high): ')
+cam5 = input('Insert CAM5.2 value(0 = sparsely granulated | 1 = densely granulated): ')
 sst2 = input('Insert sst2 value(0 = normal or low |  1 = high): ')
 age_diag = input('Insert the age at diagnosis: ')
 gh_diag = input('Insert Gh levels at diagnosis: ')
