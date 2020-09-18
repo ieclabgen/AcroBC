@@ -1,6 +1,6 @@
 # Predictor for Biochemical Control in patients with Acromegaly .
 
-We present a Random forest model for prediction of biochemical control of 
+We present a SVM model for prediction of biochemical control of 
 patients with acromegally that were submitted to surgery. This is a experimental model
 that should not be used for treatment decision, more tests should be performed. 
 
@@ -41,7 +41,7 @@ Running the commands bellow will allow the use for predictions on single samples
 
 1- conda activate RFacro
 
-2- python ./AcroRF/rf_prediction.py
+2- python ./AcroRF/control_prediction.py
 
 3- Fill the information as instructed
 
