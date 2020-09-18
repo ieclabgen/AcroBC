@@ -1,5 +1,5 @@
-1- conda activate RFacro
+1- conda activate AcroBCpred
 
-2- python ./AcroRF/control_prediction.py
+2- python ./AcroPred/control_prediction.py
 
 3- Fill the information as instructed
