@@ -2,18 +2,19 @@ import os
 import numpy as np
 import joblib
 
-model = joblib.load(os.getcwd() + '\\AcroRF\\RFacro_model_final.sav')
+model = joblib.load(os.getcwd() + '\\AcroRF\\SVM7acro_model_final.sav')
 
-#  Insert sst2 value(0 or 1): 0 = normal or low |  1 = high
 
+
+age = input('Insert the age of diagnosis: ')
+sex = input('Insert patients gender (0 = Female | 1 = Male): ')
 cam5 = input('Insert CAM5.2 value(0 = sparsely granulated | 1 = densely granulated): ')
-sst2 = input('Insert sst2 value(0 = normal or low |  1 = high): ')
-age_diag = input('Insert the age at diagnosis: ')
-gh_diag = input('Insert Gh levels at diagnosis: ')
+sst2 = input('Insert SST2 value: ')
+sst5 = input('Insert SST5 value: ')
 gh_pre = input('Insert Gh levels before initiating treatment: ')
 igf_pre = input('Insert IGF-1 before initiating treatment: ')
 
-data = [[int(sst2), int(cam5), int(age_diag), float(gh_diag), float(gh_pre), float(igf_pre)]]
+data = [[int(cam5), int(sst2), int(sst5), int(sex), int(age), float(gh_pre), float(igf_pre)]]
 
 prediction = model.predict(data)
 result = ''
