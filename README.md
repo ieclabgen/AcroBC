@@ -29,7 +29,7 @@ that should not be used for treatment decision, more tests should be performed.
 2. Enviroment creation:
 After installing miniconda, execute the anaconda prompt and use the command bellow to create an enviroment with required packages, you can substitute AcroBCpred for any other name. 
 ```sh
-conda create -n AcroBCpred python=3.6 scikit-learn pandas numpy joblib 
+conda create -n AcroBCpred python=3.6 scikit-learn==0.23.1 pandas numpy joblib 
 ```
 
 3. Download the the repository and extract the AcroRF to your user folder then follow the commands on the intructions text file (that will be the same as the displayed in the next item). AcroRF folder contains: intructions.txt, control_prediction.py and SVM7acro_model_final.sav (which is the trained model and could be used along with any other code).
