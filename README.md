@@ -41,7 +41,7 @@ Running the commands bellow will allow the use for predictions on single samples
 
 1- conda activate AcroBCpred
 
-2- python ./AcroRF/control_prediction.py
+2- python ./AcroBC/control_prediction.py
 
 3- Fill the information as instructed
 
