@@ -16,7 +16,7 @@ that should not be used for treatment decision, more tests should be performed.
   
 ## Installation
 1. Anaconda or miniconda:
- Although Anaconda comes with all required python modules, we recommend miniconda since it requires less disk space. Download an instaler compatible with you system 
+ Although Anaconda comes with all required python modules, we recommend miniconda since it requires less disk space. Download an instaler compatible with your system 
  on https://docs.conda.io/en/latest/miniconda.html#linux-installers.
  
     * Windows: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/windows.html.
