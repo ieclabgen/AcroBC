@@ -15,14 +15,7 @@ We present a SVM model for prediction of biochemical control with first-generati
 ## Installation
 1. Anaconda or miniconda:
  Although Anaconda comes with all required python modules, we recommend miniconda since it requires less disk space. Download an instaler compatible with your system 
- on https://docs.conda.io/en/latest/miniconda.html#linux-installers.
- 
-    * Windows: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/windows.html.
-    
-    * Linux: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/linux.html.
-    
-    * macOS: Follow the instructions on https://conda.io/projects/conda/en/latest/user-guide/install/macos.html.
-    
+ on https://docs.conda.io/en/latest/miniconda.html#linux-installers.  
     
 2. Enviroment creation:
 After installing miniconda, execute the anaconda prompt and use the command bellow to create an enviroment with required packages, you can substitute AcroBCpred for any other name. 
