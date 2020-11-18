@@ -30,7 +30,18 @@ After installing miniconda, execute the anaconda prompt and use the command bell
 conda create -n AcroBCpred python=3.6 scikit-learn==0.23.1 pandas numpy joblib 
 ```
 
-3. Download the repository and extract the AcroPred to your user folder then follow the commands on the intructions text file (that will be the same as the displayed in the next item). AcroPred folder contains: intructions.txt, control_prediction.py and SVM7acro_model_final.sav (which is the trained model and could be used along with any other code).
+3. Download the repository and extract the AcroPred to your user folder then follow the commands on the intructions text file (that will be the same as the displayed in the next item). AcroPred folder contains: intructions.txt, control_prediction.py and SVM7acro_model_final.sav (which is the trained model and could be used along with any other code). Follow the next steps to download the repository locally.
+
+ * Activate the enviroment
+ ```sh
+      conda activate AcroBCpred
+      ```
+      
+ * Get the repository locally
+ 
+  ```sh
+      git clone https://github.com/rlymiranda/AcroBC.git
+      ```
 
 
       
@@ -39,7 +50,7 @@ Running the commands bellow will allow the use for predictions on single samples
 
 1- conda activate AcroBCpred
 
-2- python ./AcroPred/control_prediction.py
+2- python ./AcroBC/AcroPred/control_prediction.py
 
 3- Fill the information as instructed
 
