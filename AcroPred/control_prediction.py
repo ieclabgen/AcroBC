@@ -2,7 +2,7 @@ import os
 import numpy as np
 import joblib
 
-model = joblib.load(os.getcwd() + '\\AcroPred\\SVM7acro_model_final.sav')
+model = joblib.load(os.getcwd() + '\\AcroBC\\AcroPred\\SVM7acro_model_final.sav')
 
 
 
