@@ -19,19 +19,13 @@ We present a SVM model for prediction of biochemical control with first-generati
     
 2. Enviroment creation:
 After installing miniconda, execute the anaconda prompt and use the command bellow to create an enviroment with required packages, you can substitute AcroBCpred for any other name. 
+
 ```sh
 conda create -n AcroBCpred python=3.6 scikit-learn==0.23.1 pandas numpy joblib git
 ```
 
-3. Download the repository and extract the AcroPred to your user folder then follow the commands on the intructions text file (that will be the same as the displayed in the next item). AcroPred folder contains: intructions.txt, control_prediction.py and SVM7acro_model_final.sav (which is the trained model and could be used along with any other code). Follow the next steps to download the repository locally.
+3. The AcroPred folder contains: intructions.txt, control_prediction.py and SVM7acro_model_final.sav (which is the trained model and could be used along with any other code). Follow the next steps to download the repository locally.
 
- * Run the anaconda prompt and activate the enviroment:
- ```sh
-      conda activate AcroBCpred
- ```
- 
- * Get the repository locally
- 
   ```sh
       git clone https://github.com/rlymiranda/AcroBC.git
   ```
