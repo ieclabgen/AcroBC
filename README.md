@@ -27,6 +27,8 @@ conda create -n AcroBCpred python=3.6 scikit-learn==0.23.1 pandas numpy joblib g
 3. The AcroPred folder contains: intructions.txt, control_prediction.py and SVM7acro_model_final.sav (which is the trained model and could be used along with any other code). Follow the next steps to download the repository locally.
 
   ```sh
+      conda activate AcroBCpred
+      
       git clone https://github.com/rlymiranda/AcroBC.git
   ```
 
