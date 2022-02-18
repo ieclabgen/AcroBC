@@ -31,4 +31,4 @@ if prediction[0] == 0:
 else:
     result = 'controled'
     probability = proba[0][1]
-print ('\nWith given parameters the patient have a {:.2%} chance to be -{}- after treatment'.format(probability, result))
+print ('\nWith given parameters the patient has a {:.2%} chance to be -{}- after treatment'.format(probability, result))
